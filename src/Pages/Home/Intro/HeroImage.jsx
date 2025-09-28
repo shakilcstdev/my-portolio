@@ -14,7 +14,7 @@ const HeroImage = () => {
           <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-cyan-300 shadow-2xl  transition-all duration-500">
             <img 
               src={RijoanImg} 
-              alt="Md Rijoan Maruf" 
+              alt="Md Shakil Ahamed" 
               className="w-full h-full object-cover  transition-transform duration-300"
             />
           </div>

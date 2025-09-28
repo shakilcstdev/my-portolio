@@ -21,7 +21,7 @@ const Admin = () => {
   const [resumeLoading, setResumeLoading] = useState(false)
 
   // Check if user is admin
-  const isAdmin = user?.email === 'rijoanmaruf@gmail.com'
+  const isAdmin = user?.email === 'shakilahamed.s2000@gmail.com'
 
   // Fetch resume link
   useEffect(() => {
@@ -194,7 +194,7 @@ const Admin = () => {
                       type="url"
                       value={resumeLink}
                       onChange={(e) => setResumeLink(e.target.value)}
-                      placeholder="https://example.com/your-resume.pdf"
+                      placeholder="https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk"
                       className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 text-sm"
                     />
                     <div className="text-xs text-gray-400 mt-1">

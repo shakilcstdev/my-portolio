@@ -15,7 +15,7 @@ const HeroContent = () => {
       {/* Role/Title */}
       <div className="space-y-3 lg:space-y-4">
         <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-300 font-light">
-          Full Stack Developer
+          Web Developer
         </h2>
         <div className="flex items-center justify-center lg:justify-start space-x-2 text-gray-400">
           <FaCode className="h-4 w-4 lg:h-5 lg:w-5 text-blue-400" />

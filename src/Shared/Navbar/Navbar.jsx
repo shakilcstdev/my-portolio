@@ -23,7 +23,7 @@ const Navbar = () => {
       } catch (error) {
         console.error('Error fetching resume link:', error);
         // Use fallback link if API fails
-        setResumeLink('https://drive.google.com/uc?export=download&id=1WP6pbZsR_x4b1qlqrzhEZiuDNmSFWqXe');
+        setResumeLink('https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk');
       }
     };
     
@@ -49,7 +49,7 @@ const Navbar = () => {
   ];
 
   // Check if user has access to protected routes
-  const hasAccess = user && user.email === 'rijoanmaruf@gmail.com';
+  const hasAccess = user && user.email === 'shakilahamed.s2000@gmail.com';
 
   return (
     <nav className=" shadow-lg sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">

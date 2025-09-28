@@ -18,7 +18,7 @@ const ActionButtons = () => {
       } catch (error) {
         console.error('Error fetching resume link:', error);
         // Use fallback link if API fails
-        setResumeLink('https://drive.google.com/uc?export=download&id=1WP6pbZsR_x4b1qlqrzhEZiuDNmSFWqXe');
+        setResumeLink('https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk');
       }
     };
     

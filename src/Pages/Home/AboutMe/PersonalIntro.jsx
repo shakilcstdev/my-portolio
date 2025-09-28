@@ -29,7 +29,7 @@ const PersonalIntro = () => {
             <h3 className="text-2xl lg:text-3xl font-bold text-white">
               Hello! I'm <span className="text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text">Rijoan</span>
             </h3>
-            <p className="text-blue-400 font-medium">Full Stack Developer</p>
+            <p className="text-blue-400 font-medium">Wev Developer</p>
           </div>
         </div>
         

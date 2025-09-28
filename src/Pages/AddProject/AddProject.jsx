@@ -22,7 +22,7 @@ const AddProject = () => {
   const isEditMode = Boolean(editId)
   
   // Check if user is admin - removing potential null reference
-  const isAdmin = user?.email === 'rijoanmaruf@gmail.com'
+  const isAdmin = user?.email === 'shakilahamed.s2000@gmail.com'
   
   const [formData, setFormData] = useState({
     title: '',

@@ -6,7 +6,7 @@ const CallToAction = () => {
   const actions = [
     {
       label: "Download Resume",
-      href: "https://drive.google.com/uc?export=download&id=1WP6pbZsR_x4b1qlqrzhEZiuDNmSFWqXe",
+      href: "https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk",
       icon: HiDownload,
       isPrimary: true,
       isExternal: true
