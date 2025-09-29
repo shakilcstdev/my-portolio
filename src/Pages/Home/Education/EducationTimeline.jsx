@@ -6,11 +6,11 @@ const EducationTimeline = () => {
   const education = [
     {
       id: 1,
-      degree: "Bachelor of Science in Computer Science & Engineering",
-      institution: "American International University - Bangladesh",
-      period: "2023 - 2027",
-      status: "Currently Enrolled - 2nd Year",
-      location: "Dhaka, Bangladesh",
+      degree: " Diploma in Engineering computer science & technology",
+      institution: "Habiganj Polytechnic Institute - Bangladesh",
+      period: "2021 - 2025",
+      status: "Completed Diploma in Engineering ✅",
+      location: "Habiganj Sadar, Sylhet, Bangladesh",
       icon: FaUniversity,
       description: "Pursuing comprehensive education in computer science fundamentals, software engineering, and modern development practices.",
       achievements: [
