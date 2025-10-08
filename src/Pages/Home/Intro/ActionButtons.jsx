@@ -11,14 +11,24 @@ const ActionButtons = () => {
   useEffect(() => {
     const fetchResumeLink = async () => {
       try {
-        const response = await resumeAPI.get();
-        if (response.success && response.data.link) {
-          setResumeLink(response.data.link);
+        const response = await resumeAPI.get('/');
+        console.log("Resume API response:", response.data);
+
+        // ধরছি তোমার backend এর response ফরম্যাট:
+        // { success: true, data: { link: "https://..." } }
+        if (response.data?.success && response.data?.data?.link) {
+          setResumeLink(response.data.data.link);
+        } else {
+          setResumeLink(
+            'https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk'
+          );
         }
       } catch (error) {
         console.error('Error fetching resume link:', error);
         // Use fallback link if API fails
-        setResumeLink('https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk');
+        setResumeLink(
+          'https://drive.google.com/file/d/1U7a114FAAzKGMwtNmvyGizdHo7lK-szo/view?usp=drivesdk'
+        );
       }
     };
     
